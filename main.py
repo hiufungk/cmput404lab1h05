@@ -2,9 +2,9 @@
 
 import requests
 print(requests.__version__)
-r = requests.get("http://www.google.com")
-print(dir(r))
+r = requests.get("https://raw.githubusercontent.com/hiufungk/cmput404lab1h05/master/main.py")
+#print(dir(r))
 print(r.text)
-print(r.status_code)
+#print(r.status_code)
 
 
